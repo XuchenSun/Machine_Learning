@@ -40,5 +40,4 @@ class Running_ML_Program_Set:
         train_set.train_FC_model(FC_model,x_in_train,y_in_train,x_in_test,y_in_test,EPOCHE)
 
 
-program_set=Running_ML_Program_Set()
-program_set.running_ML_program_classification()
+
