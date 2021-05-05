@@ -10,7 +10,7 @@
 @Software Note: Python3.6+CUDA+CUDNN+Pycharm+Tensorflow
 @ML Model Type: Dense Layers(fully connected layers)
 @ML Model Type: Saved As Model_Layers.png
-@Dataset: THE MNIST DATABASE
+@Dataset: The Mnist Dataset
 @The iterative part: Weight in Fully Connected Layers
 """
 import Loading_Function_Set
