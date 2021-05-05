@@ -4,4 +4,4 @@
 
 Build A Fully Connected Layer to classify mnist with 98% accuracy at the reulst of 10 epoches of training
 
-![](https://github.com/XuchenSun/Maintain_Vehicle_by_using_logic_steps/blob/master/me.JPG)
+![](https://github.com/XuchenSun/Machine_Learning/blob/master/Result/Result%20of%20classification.jpg)
