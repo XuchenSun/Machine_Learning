@@ -10,7 +10,7 @@
 @Hardware Note GPU: EVGA GTX1080ti
 @Software Note: Python3.6+CUDA+CUDNN+Pycharm+Tensorflow
 """
-
+import tensorflow as tf
 class Personal_Model_Set:
   "Initialize objects of the class Personal_Model_set"
   def __init__(self):

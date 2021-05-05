@@ -10,6 +10,7 @@
 @Hardware Note GPU: EVGA GTX1080ti
 @Software Note: Python3.6+CUDA+CUDNN+Pycharm+Tensorflow
 """
+
 class Personal_Train_Function_Set:
   "Initialize objects of the class Personal_Train_set"
   def __init__(self):
