@@ -1,5 +1,5 @@
 """
-@Class Name: classification
+@Class Name: ML_Program_Set
 @Author: Xuchen Sun
 @License: General Public License （GPL）
 @Contact: xuchens@mun.ca
@@ -8,10 +8,6 @@
 @Hardware Note CPU:AMD3900
 @Hardware Note GPU: EVGA GTX1080ti
 @Software Note: Python3.6+CUDA+CUDNN+Pycharm+Tensorflow
-@ML Model Type: Dense Layers(fully connected layers)
-@ML Model Type: Saved As Model_Layers.png
-@Dataset: The Mnist Dataset
-@The iterative part: Weight in Fully Connected Layers
 """
 import Loading_Function_Set
 import Model_Set
