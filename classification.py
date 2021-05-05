@@ -15,6 +15,6 @@
 """
 import ML_Program_Set
 
-
+"Running classification in ML by just two command via OOP"
 program_set=ML_Program_Set.Running_ML_Program_Set()
 program_set.running_ML_program_classification()
