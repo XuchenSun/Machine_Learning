@@ -11,6 +11,7 @@
 @Software Note: Python3.6+CUDA+CUDNN+Pycharm+Tensorflow
 """
 import tensorflow as tf
+from tensorflow.keras import datasets
 class Personal_Loading_Function_Set:
 
   "Initialize objects of the class Personal_Loading_function_Set"
@@ -23,3 +24,11 @@ class Personal_Loading_Function_Set:
     x_value_in_test_folder= x_value_in_test_folder / 255.0
     print("Load Data From Mnist Successfully")
     return x_value_in_train_folder,y_value_in_train_folder,x_value_in_test_folder,y_value_in_test_folder
+  def load_data_from_cifar10(self):
+
+    (images_in_train_set, labels_in_train_set), (images_in_test_set, labels_in_test_set) = datasets.cifar10.load_data()
+
+    images_in_train_set = images_in_train_set / 255.0
+    images_in_test_set = images_in_test_set / 255.0
+    print("Load Data From Cifar10 Successfully")
+    return images_in_train_set, labels_in_train_set,images_in_test_set, labels_in_test_set

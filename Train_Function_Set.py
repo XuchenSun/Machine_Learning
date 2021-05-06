@@ -19,6 +19,11 @@ class Personal_Train_Function_Set:
 
 
   def train_FC_model(self,model, x_value_in_train_folder, y_value_in_train_folder, x_value_in_test_folder, y_value_in_test_folder,epoche):
-    print("FC model is running")
+    print("FC model is training")
     model.fit(x_value_in_train_folder, y_value_in_train_folder, epochs=epoche)
     model.evaluate(x_value_in_test_folder, y_value_in_test_folder, verbose=2)
+
+  def train_CNN_model(self,model,images_in_train_set,labels_in_train_set,images_in_test_set, labels_in_test_set,epochs):
+    print("CNN model model is training")
+    model.fit(images_in_train_set, labels_in_train_set, epochs=epochs,validation_data=(images_in_test_set, labels_in_test_set))
+    model.evaluate(images_in_test_set,labels_in_test_set, verbose=2)
