@@ -1,5 +1,5 @@
 """
-@Class Name: classification
+@Class Name: classification_CNN
 @Author: Xuchen Sun
 @License: General Public License （GPL）
 @Contact: xuchens@mun.ca
