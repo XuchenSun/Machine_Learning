@@ -4,7 +4,7 @@
 
 Build A Fully Connected Layer to classify mnist with 98% accuracy at the reulst of 10 epoches of training
 
-![](https://github.com/XuchenSun/Machine_Learning/blob/master/Result/result%20of%20FNN.jpg)
+![](https://github.com/XuchenSun/Machine_Learning/blob/master/Result/result%20of%20FC.jpg)
 
 2021-05-05
 
